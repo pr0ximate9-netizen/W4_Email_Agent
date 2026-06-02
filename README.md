@@ -238,40 +238,6 @@ token.json
 
 ---
 
-## GitHub에 배포하기
-
-간단한 순서로 프로젝트를 GitHub에 올릴 수 있습니다. 로컬에서 Git을 초기화하고 원격 저장소로 푸시하세요.
-
-1) 로컬 Git 초기화 및 첫 커밋
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: multi-agent email assistant"
-git branch -M main
-```
-
-2) GitHub 원격 저장소 생성
-
-GitHub 웹 UI에서 새 저장소를 만들거나 `gh` CLI를 사용하세요:
-
-```bash
-# 예: gh repo create <username>/<repo> --public --source=. --remote=origin --push
-gh repo create YOUR_USER/YOUR_REPO --public --source=. --remote=origin --push
-```
-
-또는 수동으로 원격을 추가하고 푸시:
-
-```bash
-git remote add origin git@github.com:YOUR_USER/YOUR_REPO.git
-git push -u origin main
-```
-
-3) CI 확인
-
-위에서 추가한 GitHub Actions 워크플로(`.github/workflows/ci.yml`)가 푸시/PR 시 자동으로 테스트를 실행합니다. 실패하면 Actions 탭에서 로그를 확인하세요.
-
-
 # 에이전트 구성
 
 | 에이전트 | 역할 | 실행 방식 | 결과 |
