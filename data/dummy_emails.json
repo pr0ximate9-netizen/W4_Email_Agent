@@ -1,0 +1,82 @@
+[
+  {
+    "message_id": "msg-001",
+    "thread_id": "thread-001",
+    "subject": "Urgent: Production server down – immediate action required",
+    "sender": "ops-team@company.com",
+    "recipients": ["cto@company.com", "engineering@company.com"],
+    "body": "Hi team,\n\nOur production servers have been unresponsive for the last 45 minutes. Customers are receiving 503 errors. Database connections are failing. We need all hands on deck immediately.\n\nPlease join the incident bridge: https://meet.company.com/incident-bridge\n\nImpact: ~5,000 active users affected.\n\n– Ops Team",
+    "received_at": "2024-12-01T09:15:00",
+    "labels": ["INBOX", "IMPORTANT"]
+  },
+  {
+    "message_id": "msg-002",
+    "thread_id": "thread-002",
+    "subject": "WINNER! You have been selected for a $500 Amazon Gift Card",
+    "sender": "noreply@prizes2024.xyz",
+    "recipients": ["target@example.com"],
+    "body": "Dear Lucky Winner,\n\nCongratulations! You have been randomly selected to receive a FREE $500 Amazon Gift Card!\n\nTo claim your prize, simply click here: http://totally-legit-prizes.xyz/claim?id=12345\n\nThis offer expires in 24 hours! Act now!\n\nDo not reply to this email.",
+    "received_at": "2024-12-01T08:45:00",
+    "labels": ["INBOX"]
+  },
+  {
+    "message_id": "msg-003",
+    "thread_id": "thread-003",
+    "subject": "Contract renewal – signature required by Dec 5",
+    "sender": "legal@bigclient.com",
+    "recipients": ["contracts@company.com"],
+    "body": "Hi,\n\nAs discussed in our call last week, please find the updated service agreement attached for your review and signature.\n\nKey changes:\n- Contract term extended to 3 years\n- Annual value increased to $240,000\n- SLA uptime improved to 99.9%\n\nWe need the signed copy back by December 5th to avoid a lapse in service.\n\nPlease let me know if you have any questions.\n\nBest regards,\nSarah Johnson\nLegal Counsel, BigClient Corp",
+    "received_at": "2024-12-01T08:00:00",
+    "labels": ["INBOX"]
+  },
+  {
+    "message_id": "msg-004",
+    "thread_id": "thread-004",
+    "subject": "Can we reschedule Thursday's meeting?",
+    "sender": "partner@startup.io",
+    "recipients": ["bd@company.com"],
+    "body": "Hi,\n\nI have a conflict on Thursday at 2pm and was wondering if we could move our partnership discussion to Friday morning instead? Anytime between 9am and 12pm works for me.\n\nThanks in advance!\n\nMike",
+    "received_at": "2024-11-30T17:30:00",
+    "labels": ["INBOX"]
+  },
+  {
+    "message_id": "msg-005",
+    "thread_id": "thread-005",
+    "subject": "Your daily digest – Tech News",
+    "sender": "digest@technewsdaily.io",
+    "recipients": ["subscriber@example.com"],
+    "body": "Today's top stories:\n\n1. AI startup raises $500M Series C\n2. New EU data privacy regulations take effect Q1 2025\n3. Open source project hits 100k GitHub stars\n\nRead more at technewsdaily.io\n\nYou received this because you subscribed. Unsubscribe: https://technewsdaily.io/unsub/abc123",
+    "received_at": "2024-11-30T07:00:00",
+    "labels": ["INBOX"]
+  },
+  {
+    "message_id": "msg-006",
+    "thread_id": "thread-006",
+    "subject": "Invoice #7823 – OVERDUE (60 days)",
+    "sender": "ar@cloudprovider.com",
+    "recipients": ["finance@company.com"],
+    "body": "Dear Finance Team,\n\nThis is a reminder that Invoice #7823 for $12,400 (Cloud Infrastructure Services – October 2024) is now 60 days overdue.\n\nOriginal due date: October 1, 2024\nAmount outstanding: $12,400.00\n\nFailing payment within 5 business days will result in service suspension.\n\nPlease contact billing@cloudprovider.com to arrange payment.\n\nRegards,\nAccounts Receivable\nCloud Provider Inc",
+    "received_at": "2024-11-29T14:00:00",
+    "labels": ["INBOX"]
+  },
+  {
+    "message_id": "msg-007",
+    "thread_id": "thread-007",
+    "subject": "Cheap Rx meds – no prescription – 90% off",
+    "sender": "deals@pharma-discounts.biz",
+    "recipients": ["user@example.com"],
+    "body": "Special OFFER! Get all your medications without a prescription!\nViagra, Ozempic, Adderall, Xanax – ALL at 90% discount!\n\nOrder now: http://pharma-discounts.biz/order\n\nFDA approved* (*not actually approved). No doctor needed!",
+    "received_at": "2024-11-29T11:00:00",
+    "labels": ["INBOX"]
+  },
+  {
+    "message_id": "msg-008",
+    "thread_id": "thread-008",
+    "subject": "Application: Senior Backend Engineer – Jane Smith",
+    "sender": "jane.smith@gmail.com",
+    "recipients": ["hr@company.com"],
+    "body": "Dear Hiring Team,\n\nI'm writing to apply for the Senior Backend Engineer position I saw on LinkedIn.\n\nI have 7 years of experience with Python, Go, and distributed systems at companies including Stripe and Shopify. I'm particularly interested in your infrastructure challenges around real-time data processing.\n\nI've attached my CV and portfolio. I'm available for an interview at your convenience.\n\nBest regards,\nJane Smith\nlinkedin.com/in/janesmith",
+    "received_at": "2024-11-28T16:45:00",
+    "labels": ["INBOX"]
+  }
+]
